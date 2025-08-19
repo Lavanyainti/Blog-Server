@@ -10,7 +10,7 @@ const profileRoute=require('./routes/profileRoute')
 const path = require('path');
 
 app.use(cors({
-    origin: ["https://whimsical-baklava-7833ab.netlify.app"], 
+    origin: ["https://steady-biscochitos-61738e.netlify.app"], 
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true
   }));
